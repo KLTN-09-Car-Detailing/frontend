@@ -3,12 +3,15 @@ import "./App.css";
 import { Route, Link, Routes } from "react-router-dom";
 import Loading from "./component/loading";
 import Button from "antd/es/button";
+import TopNavigation from "./component/navbar/navbar";
+import FooterCustom from "./component/footer/footer";
 
 const HomePage = lazy(() => import("./page/homePage/homePage"));
 function App() {
   return (
     <div className="App">
       <Suspense fallback={<Loading />}>
+        <TopNavigation/>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route
@@ -29,6 +32,7 @@ function App() {
             }
           />
         </Routes>
+        <FooterCustom/>
       </Suspense>
     </div>
   );

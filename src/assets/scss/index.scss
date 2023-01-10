@@ -7,8 +7,16 @@
 // @import "antd/dist/antd.css";
 // @import "./antdSystem.scss";
 
+@import "~bootstrap/scss/bootstrap";
+
 //---- Home Page ----//
 @import "../../page/homePage/homePage.scss";
 
 //---- Side bar ----//
 @import "../../component/sidebar/sidebar.scss";
+
+//---- Nav bar ----//
+@import "../../component/navbar/navbar.scss";
+
+//---- Footer ----//
+@import "../../component/footer/footer.scss";
