@@ -5,6 +5,7 @@ import Loading from "./component/loading";
 import Button from "antd/es/button";
 import TopNavigation from "./component/navbar/navbar";
 import FooterCustom from "./component/footer/footer";
+import Service from "./page/service/service";
 
 const HomePage = lazy(() => import("./page/homePage/homePage"));
 function App() {
@@ -14,6 +15,10 @@ function App() {
         <TopNavigation/>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/trang-chu" element={<HomePage />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/dich-vu" element={<Service />} />
           <Route
             path="*"
             element={

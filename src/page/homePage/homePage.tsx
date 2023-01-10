@@ -2,46 +2,7 @@
 function HomePage() {
   return (
     <>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
-      <h1>Ngân Khùng</h1>
+      <h1>Đây là home page</h1>
     </>
   );
 }

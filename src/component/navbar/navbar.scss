@@ -1,0 +1,10 @@
+.navbar-btn{
+    margin: 0 5px ;
+    margin-right: 0;
+}
+.nav-link, .dropdown-menu{
+    a{
+        text-decoration: none;
+        color: var(--bs-nav-link-color);
+    }
+}

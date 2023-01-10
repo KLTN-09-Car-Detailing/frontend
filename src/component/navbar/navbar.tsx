@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 
 function TopNavigation() {
   return (
@@ -24,13 +25,21 @@ function TopNavigation() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#action1">Trang chủ</Nav.Link>
-                <Nav.Link href="#action2">Sản phẩm</Nav.Link>
+                <Nav.Link >
+                  <Link to={"/trang-chu"}>
+                    Trang chủ
+                  </Link>
+                </Nav.Link>
+                <Nav.Link >Sản phẩm</Nav.Link>
                 <NavDropdown
                   title="Dịch vụ"
                   id={`offcanvasNavbarDropdown-expand-lg`}
                 >
-                  <NavDropdown.Item href="#action3">Dịch vụ 1</NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to={"/dich-vu"} >
+                      Dịch vụ 1
+                    </Link>
+                  </NavDropdown.Item>
                   <NavDropdown.Item href="#action4">
                   Dịch vụ 2
                   </NavDropdown.Item>
@@ -49,6 +58,8 @@ function TopNavigation() {
                 />
                 <Button variant="outline-success">Tìm</Button>
               </Form>
+              <Button className='navbar-btn' style={{backgroundColor: "#33bcb7"}}>Đăng nhập</Button>
+              <Button className='navbar-btn' style={{backgroundColor: "#8fcaeb"}}>Đăng kí</Button>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>
